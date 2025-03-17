@@ -84,7 +84,7 @@ module CKEditor5::Rails::Plugins
 
     def initialize
       super(:SimpleUploadAdapter, PLUGIN_CODE)
-      compress!
+      #compress!
     end
   end
 end
